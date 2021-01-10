@@ -1,0 +1,47 @@
+
+body {
+    /* font-family: "Poppins", sans-serif; */
+    /* font-size: 14px; */
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 1px;
+}
+.App{
+    height: 100vh;
+    width: 100vw;
+    /* color: white; */
+}
+.about-container{
+    /* background-color: #000; */
+    height: 100%;
+    width: 100%;
+}
+.intro-div{
+    height: 60%;
+    widows: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.profile{
+    height: 30%;
+    width: 10%;
+    /* background-color: aqua; */
+}
+
+Button{
+    color:#fff;
+    background-color: #000;
+}
+.info-div{
+    height: 40%;
+    width: 100%;
+    color:#fff;
+    /* background-color: aqua; */
+}
