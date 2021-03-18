@@ -1,16 +1,21 @@
-import React from 'react';
+import React,{useState,useEffect}from 'react';
 import { hot } from 'react-hot-loader/root';
-import About from './about';
+import Home from './home';
 import './../assets/styles/styles.css';
 
-class App extends React.Component {
-	render() {
+function App() {
+	const [dark,setMode]=useState("false");
 		return (
-			<div className='App'>
-				<About />
+			<div className={dark?'App dark-mode':'App light-mode'}>
+				<div className="nav">
+					<label className="switch">
+  					<input type="checkbox" onChange={()=>setMode(!dark)}/>
+  					<span className="slider round"></span>
+					</label>
+				 </div>
+				<Home/>
 			</div>
 		);
-	}
 }
 
 export default hot(App);
