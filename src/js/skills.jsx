@@ -1,16 +1,14 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
 import './../assets/styles/styles.css';
-
-class Skills extends React.Component {
-	render() {
-		return (
-			<div className='skill-div'>
-                
-                
-			</div>
-		);
-	}
+import {skillsBar} from './profile';
+import Skill from './skill';
+const Skills = ()=> {
+    return (
+        <div className="skills-div">
+            {skillsBar.map(s=><Skill label={s.name} per={s.value}/>)}
+        </div>
+    )
 }
 
 export default hot(Skills);

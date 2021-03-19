@@ -2,6 +2,7 @@ import React,{useState,useEffect}from 'react';
 import { hot } from 'react-hot-loader/root';
 import Home from './home';
 import About from './about';
+import Skills from './skills';
 import './../assets/styles/styles.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   					<span className="slider round"></span>
 					</label>
 				 </div>
-				<About/>
+				<Skills/>
 			</div>
 		);
 }
