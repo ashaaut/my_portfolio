@@ -240,3 +240,67 @@ p{
 h2{
   color: #ff715b;
 }
+.Contact-div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-header{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  /* background-color: hotpink; */
+}
+.form-div{
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  /* background-color: greenyellow; */
+}
+.form{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: indianred; */
+  flex-direction:column;
+}
+form{
+  height: 100%;
+  width: 90%;
+  /* background-color: indigo; */
+  display: flex;
+  margin-left: 100px;
+  padding-top: 5%;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+input  {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+textarea{
+  width: 80%;
+  height: 15%;
+  margin: 10px 0;
+}
+button{
+  width: 30%;
+  height: 10%;
+  font-size: 20px;
+  margin: 20px;
+  background-color: coral;
+}
+input:focus {
+  border: 1px solid #555;
+}

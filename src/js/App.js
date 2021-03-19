@@ -4,6 +4,7 @@ import Home from './home';
 import About from './about';
 import Skills from './skills';
 import Projects from './projects'
+import Contact from './contacts';
 import './../assets/styles/styles.css';
 
 function App() {
@@ -16,10 +17,11 @@ function App() {
   					<span className="slider round"></span>
 					</label>
 				 </div>
-				 <Home/>
+				 {/* <Home/>
 				 <About/>
 				<Skills/> 
-				<Projects/>
+				<Projects/> */}
+				<Contact/>
 			</div>
 		);
 }
