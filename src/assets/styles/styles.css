@@ -26,6 +26,10 @@ p{
     /* background-color: blue; */
     
 }
+.Components{
+  height: 90%;
+  width: 100%;
+}
 .home{
     height: 100%;
     width: 100%;
@@ -254,6 +258,15 @@ h2{
   justify-content: center;
   /* background-color: hotpink; */
 }
+.contact-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  /* background-color: darkblue; */
+  flex-direction: row;
+
+}
 .form-div{
   height: 90%;
   width: 50%;
@@ -303,4 +316,19 @@ button{
 }
 input:focus {
   border: 1px solid #555;
+}
+.media-details{
+  height: 100%;
+  width: 50%;
+  /* background-color: cornflowerblue; */
+}
+.media-div{
+  /* background-color: rgb(175, 40, 130); */
+  padding-top: 30px;
+  height: 100%;
+  width: 80%;
+}
+.icon{
+  margin-left: 70px;
+  font-size: large;
 }

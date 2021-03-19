@@ -1,6 +1,7 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
 import Form from './form'
+import Media from './media';
 import './../assets/styles/styles.css';
 
 class Contact extends React.Component {
@@ -10,9 +11,15 @@ class Contact extends React.Component {
                 <div className="contact-header">
                     <h1 className="about-header">Get In Touch</h1>
                 </div>
+                <div className="contact-container">
                 <div className="form-div">
                     <Form/>
                 </div>
+                <div className="media-details">
+                    <Media/>
+                </div>
+                </div>
+                
                 
 			</div>
 		);

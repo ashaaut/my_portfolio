@@ -17,11 +17,14 @@ function App() {
   					<span className="slider round"></span>
 					</label>
 				 </div>
+				 <div className="Components">
 				 {/* <Home/>
 				 <About/>
 				<Skills/> 
 				<Projects/> */}
-				<Contact/>
+				<Contact/> 
+				 </div>
+				 
 			</div>
 		);
 }
