@@ -155,8 +155,10 @@ p{
   .about-header{
     color: coral;
     font-size: 3rem;
+    margin-top: 10px;
     text-decoration: underline;
   }
+  
   .about-info{
     font-size: 20px;
     padding: 2%;
@@ -170,6 +172,7 @@ p{
     /* background-color: coral; */
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
   }
   .container { 
     background-color: rgb(192, 192, 192); 
@@ -194,4 +197,46 @@ p{
   text-align: right; 
   font-size: 5px; 
   border-radius: 15px; 
+}
+.projects-div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: crimson; */
+}
+.project-card{
+  height: 55%;
+  width: 25%;
+  padding: 15px;
+  margin-top: 15px;
+  box-shadow: 0 48px 100px 0 rgb(17 12 46 / 15%);
+  /* background-color: rgb(142, 146, 136); */
+  border: .5px solid #eee;
+}
+.project-container{
+  margin-top: 150px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: blueviolet; */
+  justify-content: center;
+  flex-direction: row;
+}
+.image-project{
+  height: 70%;
+    width:100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer!important;
+    background-color: #ff715b;
+}
+/* .project-info{
+  height: ;
+} */
+h2{
+  color: #ff715b;
 }
